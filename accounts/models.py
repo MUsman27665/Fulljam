@@ -1,7 +1,7 @@
 from django.db import models
 #import birthday
 #from birthday import fields
-from birthday import managers
+#from birthday import managers
 from django.contrib.auth.models import User
 class UserProfile(models.Model):
     user = models.OneToOneField(User,on_delete=models.CASCADE,unique=True)
