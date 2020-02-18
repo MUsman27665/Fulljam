@@ -1,5 +1,5 @@
 from django.db import models
-import birthday
+#import birthday
 from birthday import fields
 from birthday import managers
 from django.contrib.auth.models import User
