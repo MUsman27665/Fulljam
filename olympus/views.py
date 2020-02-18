@@ -12,7 +12,7 @@ import subprocess
 from datetime import date
 from chat.models import Thread
 import datetime
-import birthday
+#import birthday
 from django.conf import settings
 from friends.models import FriendRequest
 from django.db.models import Q
