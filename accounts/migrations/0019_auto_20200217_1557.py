@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('accounts', '0010_userprofile_friends'),
+        ('accounts', '0018_auto_20200115_1741'),
     ]
 
     operations = [
