@@ -12,10 +12,6 @@ class Migration(migrations.Migration):
     operations = [
         migrations.RemoveField(
             model_name='userprofile',
-            name='birthday',
-        ),
-        migrations.RemoveField(
-            model_name='userprofile',
             name='phone_number',
         ),
         migrations.RemoveField(
